@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1 style="text-align: center;">Registration Form</h1>
+<body>
+    <form style="text-align: center;">
+        <label>Enter your ID:</label>
+        <input type="number"><br>
+        <label>Enter your Course:</label>
+        <input><br>
+        <label>Enter your Branch:</label>
+        <input><br>
+        <label>Enter your First Name:</label>
+        <input minlength="5" maxlength="10"><br>
+        <label>Enter your Last Name:</label>
+        <input min="10" max="20"><br>
+        <label>Enter your Father Name:</label>
+        <input><br>
+        <label>Enter your Mother Name:</label>
+        <input><br>
+        <label>Enter your Email:</label>
+        <input type="email" required><br>
+        <label>Enter your Password:</label>
+        <input type="password" pattern="[0-9]{10}"><br>
+        <label>Repeat your Password:</label>
+        <input type="password" placeholder="Repeat Password" pattern="[0-9]{10}"><br>
+        <label>Enter Your Number</label>
+        <input type="number"><br>
+        <label>Enter Your Date Of Birth:</label>
+        <input type="date"><br>
+        <label>Enter Your Number :</label>
+        <input type="number" placeholder="Enter Your Age"><br>
+        <label>Enter your Gender:</label>
+        <input type="radio" number="1">Male
+        <input type="radio" number="1">Female<br>
+        <label>Select Your Religion:</label>
+        <input type="radio" number="1">Hinduism
+        <input type="radio" number="1">Muslim<br>
+        <input type="radio" number="1">Christian
+        <input type="radio" number="1">Buddhism<br>
+        <input type="radio" number="1">Jewish<br>
+        <label>Select Your Caste:</label>
+        <input type="radio" number="1">OC
+        <input type="radio" number="1">BC<br>
+        <input type="radio" number="1">SC/ST
+        <input type="radio" number="1">OBC<br>
+        <label>Enter Your Adhaar Number:</label>
+        <input type="number" placeholder="Enter Your Adhaar Number"><br>
+        <label>Enter Your Address:</label>
+        <textarea>Ex:Dr.No,Area</textarea><br>
+        <label>Are You Physically Handicapped::</label>
+        <input type="radio" number="1">Yes
+        <input type="radio" number="1">No<br>
+        <label>Select Your Blood Group:</label>
+        <select>
+            <option>A+</option>
+            <option>B+</option>
+            <option>O+</option>
+            <option>AB+</option>
+            <option>A-</option>
+            <option>B-</option>
+            <option>O-</option>
+            <option>AB-</option>
+        </select><br>
+        <label>Select Your Hobbies:</label><br>
+        <input type="checkbox">Reading Novels<br>
+        <input type="checkbox">Cooking<br>
+        <input type="checkbox">Watching Movies<br>
+        <input type="checkbox">Shopping<br>
+        <label>Enter the Month:</label>
+        <input type="month"><br>
+        <label>Select the File:</label>
+        <input type="file"><br>
+        <input type="image"><br>
+        <input type="range"><br>
+        <textarea>Review</textarea><br>
+        <input list="state" placeholder="Select State">
+        <datalist id="state">
+            <option>AP</option>
+            <option>TS</option>
+            <option>UP</option>
+            <option>TN</option>
+        </datalist><br>
+        <label>Select State</label>
+        <select>
+            <option>AP</option>
+            <option>TS</option>
+            <option>UP</option>
+            <option>TN</option>
+        </select><br>
+        <label>Select District</label>
+        <select>
+            <option>Guntur</option>
+            <option>Kurnool</option>
+            <option>Nellore</option>
+            <option>Tenali</option>
+        </select><br>
+        <input type="Submit" value="Login" disabled>
+        <input type="Reset">
+    </form>
+</body>
+</html>
